@@ -1,0 +1,976 @@
+﻿++Solución "ClinMedDc" ‎(5 de 5 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:ClinMedDc.sln
+++BaseDeDatos
+i:{00000000-0000-0000-0000-000000000000}:BaseDeDatos
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++Properties
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\basededatos\properties\
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\properties\
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\properties\
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\properties\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\properties\
+++Referencias
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++BaseDeDatos.cs
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\basededatos\basededatos.cs
+++AssemblyInfo.cs
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\basededatos\properties\assemblyinfo.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\properties\assemblyinfo.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\properties\assemblyinfo.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\properties\assemblyinfo.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Configuration
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Core
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Data
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Data.DataSetExtensions
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Net.Http
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+++System.Windows.Forms
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+++System.Xml
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Xml.Linq
+i:{0ed1de57-044d-4e8a-ad41-a601ab4eb3dd}:
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++CapaAccesoDatos
+i:{00000000-0000-0000-0000-000000000000}:CapaAccesoDatos
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+++Conexion.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\conexion.cs
+++DiagnosticoDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\diagnosticodao.cs
+++EmpleadoDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\empleadodao.cs
+++EspecialidadDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\especialidaddao.cs
+++MedicoDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\medicodao.cs
+++MenuDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\menudao.cs
+++PacienteDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\pacientedao.cs
+++PermisoDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\permisodao.cs
+++UsuarioDAO.cs
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaaccesodatos\usuariodao.cs
+++CapaEntidades
+i:{fc4a0cc9-83f6-49ad-b3e1-fdf8d8bb5e9d}:
+i:{9806cd5a-4557-478f-be83-736aae17b857}:
+i:{00000000-0000-0000-0000-000000000000}:CapaEntidades
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++CapaLogicaNegocio
+i:{00000000-0000-0000-0000-000000000000}:CapaLogicaNegocio
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++DiagnosticoLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\diagnosticoln.cs
+++EmpleadoLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\empleadoln.cs
+++EspecialidadLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\especialidadln.cs
+++MedicoLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\medicoln.cs
+++MenuLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\menuln.cs
+++PacienteLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\pacienteln.cs
+++PermisoLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\permisoln.cs
+++UsuarioLN.cs
+i:{9806cd5a-4557-478f-be83-736aae17b857}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capalogicanegocio\usuarioln.cs
+++Diagnostico.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\diagnostico.cs
+++Empleado.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\empleado.cs
+++Especialidad.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\especialidad.cs
+++HistoriaClinica.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\historiaclinica.cs
+++Medico.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\medico.cs
+++Menu.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\menu.cs
+++Paciente.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\paciente.cs
+++Permiso.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\permiso.cs
+++TipoEmpleado.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\tipoempleado.cs
+++Usuario.cs
+i:{c44bdc27-872f-4dc1-b34c-24bca5e51855}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\capaentidades\usuario.cs
+++CapaPresentación
+i:{00000000-0000-0000-0000-000000000000}:CapaPresentación
+++Connected Services
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\connected services\
+++css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\
+++bootstrap-slider
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap-slider\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\bootstrap-slider\
+++slider.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap-slider\slider.css
+++bootstrap-wysihtml5
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap-wysihtml5\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\bootstrap-wysihtml5\
+++colorpicker
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\colorpicker\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\colorpicker\
+++CssPersonalizado
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\csspersonalizado\
+++datatables
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datatables\
+++datepicker
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datepicker\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\
+++daterangepicker
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\daterangepicker\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\daterangepicker\
+++fonts
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\fonts\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\
+++glyphicons-halflings-regular.eot
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\fonts\glyphicons-halflings-regular.eot
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\fonts\glyphicons-halflings-regular.svg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\fonts\glyphicons-halflings-regular.ttf
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\fonts\glyphicons-halflings-regular.woff
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\glyphicons-halflings-regular.woff
+++iCheck
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\icheck\
+++images
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\
+++animated-overlay.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\animated-overlay.gif
+++ui-bg_flat_0_aaaaaa_40x100.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_flat_0_aaaaaa_40x100.png
+++ui-bg_flat_55_fbec88_40x100.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_flat_55_fbec88_40x100.png
+++ui-bg_glass_75_d0e5f5_1x400.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_glass_75_d0e5f5_1x400.png
+++ui-bg_glass_85_dfeffc_1x400.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_glass_85_dfeffc_1x400.png
+++ui-bg_glass_95_fef1ec_1x400.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_glass_95_fef1ec_1x400.png
+++ui-bg_gloss-wave_55_5c9ccc_500x100.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png
+++ui-bg_inset-hard_100_f5f8f9_1x100.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_inset-hard_100_f5f8f9_1x100.png
+++ui-bg_inset-hard_100_fcfdfd_1x100.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png
+++ui-icons_217bc0_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_217bc0_256x240.png
+++ui-icons_2e83ff_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_2e83ff_256x240.png
+++ui-icons_469bdd_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_469bdd_256x240.png
+++ui-icons_6da8d5_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_6da8d5_256x240.png
+++ui-icons_cd0a0a_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_cd0a0a_256x240.png
+++ui-icons_d8e7f3_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_d8e7f3_256x240.png
+++ui-icons_f9bd01_256x240.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\images\ui-icons_f9bd01_256x240.png
+++ionslider
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\ionslider\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\ionslider\
+++jvectormap
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\jvectormap\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\jvectormap\
+++morris
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\morris\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\morris\
+++timepicker
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\timepicker\
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\timepicker\
+++AdminLTE.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\adminlte.css
+++bootstrap.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap.min.css
+++font-awesome.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\font-awesome.min.css
+++footer.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\footer.css
+++ionicons.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\ionicons.min.css
+++Custom
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\custom\
+++img
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\
+++bootstrap-colorpicker
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\
+++credit
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\
+++ajax-loader.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\ajax-loader.gif
+++ajax-loader1.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\ajax-loader1.gif
+++avatar.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar.png
+++avatar04.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar04.png
+++avatar2.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar2.png
+++avatar3.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar3.png
+++avatar5.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar5.png
+++avatar9.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\avatar9.jpg
+++blur-background04.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\blur-background04.jpg
+++blur-background08.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\blur-background08.jpg
+++blur-background09.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\blur-background09.jpg
+++clinica_318-1538.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\clinica_318-1538.jpg
+++fechaicon.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\fechaicon.jpg
+++icons.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\icons.png
+++imgpanelgeneral.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\imgpanelgeneral.jpg
+++loginusuario.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\loginusuario.png
+++logo.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\logo.png
+++médica-700x427.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\médica-700x427.jpg
+++medico-de-familia.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\medico-de-familia.jpg
+++sprite-skin-flat.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\sprite-skin-flat.png
+++sprite-skin-nice.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\sprite-skin-nice.png
+++Thumbs.db
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\thumbs.db
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\thumbs.db
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\thumbs.db
+++user-bg.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\user-bg.png
+++user.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\user.jpg
+++user2.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\user2.jpg
+++usuario.jpg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\usuario.jpg
+++jAlert
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\
+++jquery.alerts.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\jquery.alerts.css
+++jquery.alerts.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\jquery.alerts.js
+++js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\
+++AdminLTE
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\adminlte\
+++plugins
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\
+++bootstrap.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\bootstrap.min.js
+++enfermera.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\enfermera.js
+++horariosenfermera.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\horariosenfermera.js
+++horariosmedico.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\horariosmedico.js
+++jquery-3.1.0.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\jquery-3.1.0.min.js
+++jquery-ui.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\jquery-ui.min.js
+++jquery.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\jquery.min.js
+++jquery.ui.draggable.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\jquery.ui.draggable.js
+++logout.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\logout.js
+++medico.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\medico.js
+++menus.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\menus.js
+++paciente.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\paciente.js
+++reserva.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\reserva.js
+++usuario.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\usuario.js
+++BadRequest.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\badrequest.aspx
+++ErrorPage.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\errorpage.aspx
+++ErrorPage.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\errorpage.aspx.cs
+++ErrorPage.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\errorpage.aspx.designer.cs
+++GestionarMenus.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmenus.aspx
+++GestionarMenus.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmenus.aspx.cs
+++GestionarMenus.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmenus.aspx.designer.cs
+++GestionarPaciente.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarpaciente.aspx
+++GestionarPaciente.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarpaciente.aspx.cs
+++GestionarPaciente.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarpaciente.aspx.designer.cs
+++GestionarUsuario.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarusuario.aspx
+++Home.Master
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\home.master
+++Home.Master.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\home.master.cs
+++Home.Master.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\home.master.designer.cs
+++login.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\login.aspx
+++login.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\login.aspx.cs
+++login.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\login.aspx.designer.cs
+++MasterError.Master
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\mastererror.master
+++MasterError.Master.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\mastererror.master.cs
+++MasterError.Master.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\mastererror.master.designer.cs
+++packages.config
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\packages.config
+++PanelGeneral.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\panelgeneral.aspx
+++PanelGeneral.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\panelgeneral.aspx.cs
+++PanelGeneral.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\panelgeneral.aspx.designer.cs
+++Web.config
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\web.config
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.ComponentModel.DataAnnotations
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Drawing
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.EnterpriseServices
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web.ApplicationServices
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web.DynamicData
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web.Entity
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web.Extensions
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++System.Web.Services
+i:{779103c9-02a7-4be4-909d-5626035fd421}:
+++bootstrap3-wysihtml5.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap-wysihtml5\bootstrap3-wysihtml5.css
+++bootstrap3-wysihtml5.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css
+++bootstrap-colorpicker.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\colorpicker\bootstrap-colorpicker.css
+++bootstrap-colorpicker.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\colorpicker\bootstrap-colorpicker.min.css
+++Paciente.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\csspersonalizado\paciente.css
+++dataTables.bootstrap.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\datatables.bootstrap.css
+++datepicker3.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datepicker\datepicker3.css
+++daterangepicker-bs3.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\daterangepicker\daterangepicker-bs3.css
+++flat
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\
+++futurico
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\futurico\
+++line
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\
+++minimal
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\
+++polaris
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\polaris\
+++square
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\
+++all.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\all.css
+++ion.rangeSlider.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\ionslider\ion.rangeslider.css
+++ion.rangeSlider.skinFlat.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\ionslider\ion.rangeslider.skinflat.css
+++ion.rangeSlider.skinNice.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\ionslider\ion.rangeslider.skinnice.css
+++jquery-jvectormap-1.2.2.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\jvectormap\jquery-jvectormap-1.2.2.css
+++morris.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\morris\morris.css
+++bootstrap-timepicker.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\timepicker\bootstrap-timepicker.css
+++bootstrap-timepicker.min.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\timepicker\bootstrap-timepicker.min.css
+++BasePage.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\custom\basepage.cs
+++CustomMembershipProvider.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\custom\custommembershipprovider.cs
+++SessionManager.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\custom\sessionmanager.cs
+++fontawesome-webfont.eot
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.ttf
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\fontawesome-webfont.woff
+++fontawesome-webfonts.svg
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\fontawesome-webfonts.svg
+++FontAwesome.otf
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\fonts\fontawesome.otf
+++alpha-horizontal.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\alpha-horizontal.png
+++alpha.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\alpha.png
+++hue-horizontal.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\hue-horizontal.png
+++hue.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\hue.png
+++saturation.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\bootstrap-colorpicker\saturation.png
+++american-express.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\american-express.png
+++cirrus.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\cirrus.png
+++mastercard.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\mastercard.png
+++mestro.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\mestro.png
+++paypal.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\paypal.png
+++paypal2.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\paypal2.png
+++visa.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\img\credit\visa.png
+++error-icon.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\error-icon.png
+++help.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\help.gif
+++important.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\important.gif
+++info.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\info.gif
+++message-icon.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\message-icon.png
+++title.gif
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\title.gif
+++warning-icon.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\jalert\images\warning-icon.png
+++app.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\adminlte\app.js
+++dashboard.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\adminlte\dashboard.js
+++demo.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\adminlte\demo.js
+++flot
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\
+++input-mask
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\
+++jqueryKnob
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\jqueryknob\
+++misc
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\
+++moment
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\moment\
+++slimScroll
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\slimscroll\
+++sparkline
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\sparkline\
+++BadRequest.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\badrequest.aspx.cs
+++BadRequest.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\badrequest.aspx.designer.cs
+++GestionarUsuario.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarusuario.aspx.cs
+++GestionarUsuario.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarusuario.aspx.designer.cs
+++Web.Debug.config
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\web.debug.config
+++Web.Release.config
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\web.release.config
+++sort_asc.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\sort_asc.png
+++sort_asc_disabled.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\sort_asc_disabled.png
+++sort_both.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\sort_both.png
+++sort_desc.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\sort_desc.png
+++sort_desc_disabled.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\datatables\images\sort_desc_disabled.png
+++_all.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\_all.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\_all.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\_all.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\_all.css
+++aero.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\aero.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\aero.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\aero.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\aero.css
+++aero.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\aero.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\aero.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\aero.png
+++aero@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\aero@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\aero@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\aero@2x.png
+++blue.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\blue.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\blue.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\blue.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\blue.css
+++blue.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\blue.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\blue.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\blue.png
+++blue@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\blue@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\blue@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\blue@2x.png
+++flat.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\flat.css
+++flat.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\flat.png
+++flat@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\flat@2x.png
+++green.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\green.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\green.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\green.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\green.css
+++green.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\green.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\green.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\green.png
+++green@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\green@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\green@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\green@2x.png
+++grey.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\grey.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\grey.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\grey.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\grey.css
+++grey.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\grey.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\grey.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\grey.png
+++grey@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\grey@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\grey@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\grey@2x.png
+++orange.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\orange.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\orange.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\orange.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\orange.css
+++orange.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\orange.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\orange.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\orange.png
+++orange@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\orange@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\orange@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\orange@2x.png
+++pink.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\pink.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\pink.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\pink.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\pink.css
+++pink.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\pink.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\pink.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\pink.png
+++pink@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\pink@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\pink@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\pink@2x.png
+++purple.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\purple.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\purple.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\purple.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\purple.css
+++purple.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\purple.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\purple.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\purple.png
+++purple@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\purple@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\purple@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\purple@2x.png
+++red.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\red.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\red.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\red.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\red.css
+++red.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\red.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\red.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\red.png
+++red@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\red@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\red@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\red@2x.png
+++yellow.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\yellow.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\yellow.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\yellow.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\yellow.css
+++yellow.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\yellow.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\yellow.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\yellow.png
+++yellow@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\flat\yellow@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\yellow@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\yellow@2x.png
+++futurico.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\futurico\futurico.css
+++futurico.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\futurico\futurico.png
+++futurico@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\futurico\futurico@2x.png
+++line.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\line.css
+++line.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\line.png
+++line@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\line\line@2x.png
+++minimal.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\minimal.css
+++minimal.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\minimal.png
+++minimal@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\minimal\minimal@2x.png
+++polaris.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\polaris\polaris.css
+++polaris.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\polaris\polaris.png
+++polaris@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\polaris\polaris@2x.png
+++square.css
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\square.css
+++square.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\square.png
+++square@2x.png
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\css\icheck\square\square@2x.png
+++bootstrap-slider.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\bootstrap-slider\bootstrap-slider.js
+++bootstrap3-wysihtml5.all.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.min.js
+++bootstrap3-wysihtml5.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.js
+++bootstrap-colorpicker.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\colorpicker\bootstrap-colorpicker.js
+++bootstrap-colorpicker.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\colorpicker\bootstrap-colorpicker.min.js
+++dataTables.bootstrap.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datatables\datatables.bootstrap.js
+++jquery.dataTables.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datatables\jquery.datatables.js
+++locales
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\
+++bootstrap-datepicker.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\bootstrap-datepicker.js
+++calendario.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\daterangepicker\calendario.js
+++daterangepicker.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\daterangepicker\daterangepicker.js
+++excanvas.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\excanvas.js
+++excanvas.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\excanvas.min.js
+++jquery.colorhelpers.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.colorhelpers.js
+++jquery.colorhelpers.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.colorhelpers.min.js
+++jquery.flot.canvas.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.canvas.js
+++jquery.flot.canvas.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.canvas.min.js
+++jquery.flot.categories.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.categories.js
+++jquery.flot.categories.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.categories.min.js
+++jquery.flot.crosshair.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.crosshair.js
+++jquery.flot.crosshair.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.crosshair.min.js
+++jquery.flot.errorbars.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.errorbars.js
+++jquery.flot.errorbars.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.errorbars.min.js
+++jquery.flot.fillbetween.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.fillbetween.js
+++jquery.flot.fillbetween.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.fillbetween.min.js
+++jquery.flot.image.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.image.js
+++jquery.flot.image.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.image.min.js
+++jquery.flot.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.js
+++jquery.flot.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.min.js
+++jquery.flot.navigate.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.navigate.js
+++jquery.flot.navigate.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.navigate.min.js
+++jquery.flot.pie.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.pie.js
+++jquery.flot.pie.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.pie.min.js
+++jquery.flot.resize.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.resize.js
+++jquery.flot.resize.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.resize.min.js
+++jquery.flot.selection.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.selection.js
+++jquery.flot.selection.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.selection.min.js
+++jquery.flot.stack.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.stack.js
+++jquery.flot.stack.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.stack.min.js
+++jquery.flot.symbol.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.symbol.js
+++jquery.flot.symbol.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.symbol.min.js
+++jquery.flot.threshold.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.threshold.js
+++jquery.flot.threshold.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.threshold.min.js
+++jquery.flot.time.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.time.js
+++jquery.flot.time.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\flot\jquery.flot.time.min.js
+++icheck.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\icheck\icheck.js
+++icheck.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\icheck\icheck.min.js
+++phone-codes
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\phone-codes\
+++jquery.inputmask.date.extensions.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.date.extensions.js
+++jquery.inputmask.extensions.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.extensions.js
+++jquery.inputmask.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.js
+++jquery.inputmask.numeric.extensions.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.numeric.extensions.js
+++jquery.inputmask.phone.extensions.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.phone.extensions.js
+++jquery.inputmask.regex.extensions.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\jquery.inputmask.regex.extensions.js
+++ion.rangeSlider.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\ionslider\ion.rangeslider.min.js
+++jquery.knob.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\jqueryknob\jquery.knob.js
+++jquery-jvectormap-1.2.2.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js
+++jquery-jvectormap-world-mill-en.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\jvectormap\jquery-jvectormap-world-mill-en.js
+++html5shiv.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\html5shiv.js
+++jquery.ba-resize.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\jquery.ba-resize.min.js
+++jquery.placeholder.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\jquery.placeholder.js
+++modernizr.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\modernizr.min.js
+++respond.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\misc\respond.min.js
+++moment.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\moment\moment.min.js
+++morris.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\morris\morris.js
+++morris.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\morris\morris.min.js
+++jquery.slimscroll.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\slimscroll\jquery.slimscroll.js
+++jquery.slimscroll.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\slimscroll\jquery.slimscroll.min.js
+++slimScroll.jquery.json
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\slimscroll\slimscroll.jquery.json
+++jquery.sparkline.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\sparkline\jquery.sparkline.js
+++jquery.sparkline.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\sparkline\jquery.sparkline.min.js
+++bootstrap-timepicker.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\timepicker\bootstrap-timepicker.js
+++bootstrap-timepicker.min.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\timepicker\bootstrap-timepicker.min.js
+++bootstrap-datepicker.ar.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ar.js
+++bootstrap-datepicker.az.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.az.js
+++bootstrap-datepicker.bg.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.bg.js
+++bootstrap-datepicker.ca.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ca.js
+++bootstrap-datepicker.cs.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.cs.js
+++bootstrap-datepicker.cy.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.cy.js
+++bootstrap-datepicker.da.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.da.js
+++bootstrap-datepicker.de.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.de.js
+++bootstrap-datepicker.el.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.el.js
+++bootstrap-datepicker.es.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.es.js
+++bootstrap-datepicker.et.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.et.js
+++bootstrap-datepicker.fa.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.fa.js
+++bootstrap-datepicker.fi.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.fi.js
+++bootstrap-datepicker.fr.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.fr.js
+++bootstrap-datepicker.gl.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.gl.js
+++bootstrap-datepicker.he.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.he.js
+++bootstrap-datepicker.hr.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.hr.js
+++bootstrap-datepicker.hu.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.hu.js
+++bootstrap-datepicker.id.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.id.js
+++bootstrap-datepicker.is.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.is.js
+++bootstrap-datepicker.it.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.it.js
+++bootstrap-datepicker.ja.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ja.js
+++bootstrap-datepicker.ka.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ka.js
+++bootstrap-datepicker.kk.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.kk.js
+++bootstrap-datepicker.kr.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.kr.js
+++bootstrap-datepicker.lt.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.lt.js
+++bootstrap-datepicker.lv.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.lv.js
+++bootstrap-datepicker.mk.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.mk.js
+++bootstrap-datepicker.ms.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ms.js
+++bootstrap-datepicker.nb.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.nb.js
+++bootstrap-datepicker.nl-BE.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.nl-be.js
+++bootstrap-datepicker.nl.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.nl.js
+++bootstrap-datepicker.no.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.no.js
+++bootstrap-datepicker.pl.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.pl.js
+++bootstrap-datepicker.pt-BR.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.pt-br.js
+++bootstrap-datepicker.pt.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.pt.js
+++bootstrap-datepicker.ro.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ro.js
+++bootstrap-datepicker.rs-latin.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js
+++bootstrap-datepicker.rs.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.rs.js
+++bootstrap-datepicker.ru.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ru.js
+++bootstrap-datepicker.sk.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.sk.js
+++bootstrap-datepicker.sl.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.sl.js
+++bootstrap-datepicker.sq.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.sq.js
+++bootstrap-datepicker.sv.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.sv.js
+++bootstrap-datepicker.sw.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.sw.js
+++bootstrap-datepicker.th.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.th.js
+++bootstrap-datepicker.tr.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.tr.js
+++bootstrap-datepicker.ua.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.ua.js
+++bootstrap-datepicker.vi.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.vi.js
+++bootstrap-datepicker.zh-CN.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.zh-cn.js
+++bootstrap-datepicker.zh-TW.js
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\datepicker\locales\bootstrap-datepicker.zh-tw.js
+++phone-be.json
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\phone-codes\phone-be.json
+++phone-codes.json
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\phone-codes\phone-codes.json
+++readme.txt
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\js\plugins\input-mask\phone-codes\readme.txt
+++GestionarMedico.aspx
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmedico.aspx
+++GestionarMedico.aspx.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmedico.aspx.cs
+++GestionarMedico.aspx.designer.cs
+i:{779103c9-02a7-4be4-909d-5626035fd421}:c:\users\chele\onedrive\escritorio\proyecto clinmeddc\clinmeddc\gestionarmedico.aspx.designer.cs
