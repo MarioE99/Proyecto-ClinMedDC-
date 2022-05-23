@@ -156,7 +156,7 @@ namespace CapaAccesoDatos
 
                 while (dr.Read())
                 {
-                    // Crear objetos de tipo Paciente
+                    // Crear objetos de tipo Medico
                     Medico obj = new Medico();
                     obj.IdMedico = Convert.ToInt32(dr["idMedico"].ToString());
                     obj.Nombre = dr["nombres"].ToString();

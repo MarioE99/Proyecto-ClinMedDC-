@@ -144,6 +144,8 @@ h6,
 img {
   max-width: 100% !important;
     margin-left: 0px;
+    height: 172px;
+    width: 172px;
 }
 .sort-highlight {
   background: #f4f4f4;

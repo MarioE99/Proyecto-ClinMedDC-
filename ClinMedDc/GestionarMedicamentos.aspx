@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="GestionarMedico.aspx.cs" Inherits="PaginaWebClinina.GestionarMedico" ClientIDMode="Static"%>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="GestionarMedicamentos.aspx.cs" Inherits="PaginaWebClinina.GestionarMedicamento" ClientIDMode="Static"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -15,25 +15,40 @@
                     <div class="box-body">
                        
                         <div class="form-group">
-                            <label>DOCUMENTO DE IDENTIDAD</label>
+                            <label>NOMBRE DE MEDICAMENTO</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtNroDocumento" runat="server" Text="" CssClass="form-control" MaxLength="9"></asp:TextBox>
+                            <asp:TextBox ID="txtNombreMedicamento" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>NOMBRES</label>
+                            <label>FECHA DE VENCIMIENTO</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtNombres" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:Calendar ID="calendarVencimiento" runat="server" Height="147px" Width="172px"></asp:Calendar>
                         </div>
                         <div class="form-group">
-                            <label>APELLIDOS</label></div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtApellido" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <label>FECHA DE ENTRADA</label>
                         </div>
+                        <div class="form-group">
+                            <asp:Calendar ID="calendarEntrada" runat="server" Height="99px" Width="159px"></asp:Calendar>
+                        </div>
+                        <div class="form-group">
+                            <label>CANTIDAD</label>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox ID="txtCantidad" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                        </div>
+
+                        <div class="form-group">
+                            <label>PRECIO</label>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox ID="txtPrecio" runat="server" Text="" CssClass="form-control" MaxLength="8"></asp:TextBox>
+                        </div>
+
                          <div class="form-group">
                           <label>ESPECIALIDAD</label>
-                          <asp:DropDownList ID="ddlEspecialidad" CssClass="form-control" runat="server"></asp:DropDownList>
+                          <asp:DropDownList ID="ddlLaboratorio" CssClass="form-control" runat="server"></asp:DropDownList>
                         </div>
                     </div>
                 </div>
@@ -42,7 +57,8 @@
                 <div class="box box-primary">
                     <div class="box-body">
                         <div class="form-group">
-                            &nbsp;<img src="img/medicoimg.png"/></div>
+                            <img src="img/medico-de-familia.jpg"/>
+                        </div>
                        
                         <div class="form-group">
                             <label>Tipo Empleado</label>
@@ -79,15 +95,16 @@
                         <h3 class="box-title">Lista de Médicos</h3>
                     </div>
                     <div class="box-body table-responsive">
-                        <table id="tbl_medicos" class="table table-bordered table-hover text-center">
+                        <table id="tbl_medicamentos" class="table table-bordered table-hover text-center">
                             <thead>
                                 <tr>
                                     <th>Código</th>
-                                    <th>Nombres</th>
-                                    <th>Apellidos</th>                                
-                                    <th>Nro Documento</th>
-                                    <th>Especialidad</th>
-                                    <th>Acciones</th>
+                                    <th>Nombre laboratorio</th>
+                                    <th>Nombre Medicamento</th>
+                                    <th>Fecha de vencimiento</th>
+                                    <th>Fecha de entrada</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio</th>
                                 </tr>
                             </thead>
                             <tbody id="tbl_body_table">
@@ -117,13 +134,19 @@
                         <asp:TextBox ID="txtName" runat="server" Text="" CssClass="form-control" Enabled="false"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <label>APELLIDO</label>
+                        <label>AP_PATERNO</label>
                     </div>
                     <div class="form-group">
-                        <asp:TextBox ID="txtApellidos" runat="server" Text="" CssClass="form-control" Enabled="false" ></asp:TextBox>
-                     </div>
+                        <asp:TextBox ID="txtPaterno" runat="server" Text="" CssClass="form-control" Enabled="false" ></asp:TextBox>
+                    </div>
                     <div class="form-group">
-                        <label>DOCUMENTO</label>
+                        <label>AP_MATERNO</label>
+                    </div>
+                    <div class="form-group">
+                        <asp:TextBox ID="txtMaterno" runat="server" Text="" CssClass="form-control" Enabled="false"></asp:TextBox>
+                    </div>
+                    <div class="form-group">
+                        <label>DNI</label>
                     </div>
                     <div class="form-group">
                         <asp:TextBox ID="txtDNI" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
@@ -140,7 +163,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-     <script src="js/medico.js" type="text/javascript"></script>
+     <script src="js/medicamento.js" type="text/javascript"></script>
 </asp:Content>
 
 

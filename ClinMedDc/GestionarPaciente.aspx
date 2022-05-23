@@ -28,11 +28,11 @@
                             <asp:RegularExpressionValidator ID="evNombres" runat="server" ErrorMessage="El nombre solo contiene letras y espacios" ControlToValidate="txtNombres" ForeColor="#FF3300" ValidationExpression="[a-zA-ZÀ-ÿ\s]{1,40}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
                         </div>
                         <div class="form-group">
-                            <label for="txtApPaterno" class="formulario__label">APELLIDOS</label>
+                            <label for="txtApellidos" class="formulario__label">APELLIDOS</label>
                         </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtApellidos" runat="server" Text="" CssClass="form-control formulario__input" OnTextChanged="txtApellidos_TextChanged"></asp:TextBox>
-                            <asp:RegularExpressionValidator ID="evApellidos" runat="server" ErrorMessage="El apellido solo contiene letras" ControlToValidate="txtApellidos" ForeColor="#FF3300" ValidationExpression="[a-zA-ZÀ-ÿ]{1,30}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
+                            <asp:RegularExpressionValidator ID="evApellidos" runat="server" ErrorMessage="El apellido solo contiene letras" ControlToValidate="txtApellidos" ForeColor="#FF3300" ValidationExpression="[a-zA-ZÀ-ÿ\s]{1,40}" ValidationGroup="DatosRequeridos"></asp:RegularExpressionValidator>
                         </div>
                     </div>
                 </div>
