@@ -13,20 +13,20 @@ namespace CapaAccesoDatos
     {
 
         #region "PATRON SINGLETON"
-        private static MedicamentoDAO daoMedico = null;
+        private static MedicamentoDAO daoMedicamento = null;
         private MedicamentoDAO() { }
         public static MedicamentoDAO getInstance()
         {
-            if (daoMedico == null)
+            if (daoMedicamento == null)
             {
-                daoMedico = new MedicamentoDAO();
+                daoMedicamento = new MedicamentoDAO();
             }
-            return daoMedico;
+            return daoMedicamento;
         }
         #endregion
 
   
-        public bool Actualizar(Medicamento objmedicamento)
+        public bool ActualizarDatosMedicamento(Medicamento obj)
         {
             bool ok = false;
             SqlConnection conexion = null;
@@ -36,10 +36,10 @@ namespace CapaAccesoDatos
                 conexion = Conexion.getInstance().ConexionBD();
                 cmd = new SqlCommand("spActualizarDatosMedicamento", conexion);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@prmIdMedicamento", objmedicamento.IdMedicamento);
-                cmd.Parameters.AddWithValue("@prmIdMedicamento", objmedicamento.NombreMedicamento);
-                cmd.Parameters.AddWithValue("@prmIdMedicamento", objmedicamento.Cantidad);
-                cmd.Parameters.AddWithValue("@prmIdMedicamento", objmedicamento.Precio);
+                cmd.Parameters.AddWithValue("@prmIdMedicamento", obj.IdMedicamento);
+                cmd.Parameters.AddWithValue("@prmNombreMedicamento", obj.NombreMedicamento);
+                cmd.Parameters.AddWithValue("@prmCantidad", obj.Cantidad);
+                cmd.Parameters.AddWithValue("@prmPrecio", obj.Precio);
 
 
                 conexion.Open();
@@ -59,7 +59,7 @@ namespace CapaAccesoDatos
             return ok;
         }
 
-        public bool RegistrarMedicamento(Medicamento objmedi)
+        public bool RegistrarMedicamento(Medicamento obj)
         {
             SqlConnection con = null;
             SqlCommand cmd = null;
@@ -69,13 +69,11 @@ namespace CapaAccesoDatos
                 con = Conexion.getInstance().ConexionBD();
                 cmd = new SqlCommand("spRegistrarMedicamento", con);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@prmNombreMedicamento ", objmedi.NombreMedicamento);
-                cmd.Parameters.AddWithValue("@prmFechaVencimiento", objmedi.FechaVencimiento);
-                cmd.Parameters.AddWithValue("@prmFechaEntrada", objmedi.FechaEntrada);
-                cmd.Parameters.AddWithValue("@prmLaboratorio", objmedi.Laboratorio.IdLaboratorio);
-                cmd.Parameters.AddWithValue("@prmCantidad", objmedi.Cantidad);
-                cmd.Parameters.AddWithValue("@prmPrecio", objmedi.Precio);
-                cmd.Parameters.AddWithValue("@prmEstado", objmedi.Estado);
+                cmd.Parameters.AddWithValue("@prmNombreMedicamento",obj.NombreMedicamento);
+                cmd.Parameters.AddWithValue("@prmidLaboratorio",obj.Laboratorio.IdLaboratorio);
+                cmd.Parameters.AddWithValue("@prmCantidad",obj.Cantidad);
+                cmd.Parameters.AddWithValue("@prmPrecio",obj.Precio);
+                cmd.Parameters.AddWithValue("@prmEstado",obj.Estado);
                 con.Open();
 
                 int filas = cmd.ExecuteNonQuery();
@@ -111,19 +109,17 @@ namespace CapaAccesoDatos
 
                 while (dr.Read())
                 {
-                    // Crear objetos de tipo Medico
+                    // Crear objetos de tipo Medicamento
                     Medicamento obj = new Medicamento();
                     obj.IdMedicamento = Convert.ToInt32(dr["idMedicamento"].ToString());
                     obj.Laboratorio = new Laboratorio();
                     obj.Laboratorio.NombreLaboratorio = dr["nombreLaboratorio"].ToString();
                     obj.NombreMedicamento = dr["nombreMedicamento"].ToString();
-                    obj.FechaVencimiento = Convert.ToDateTime(dr["fechaVencimiento"].ToString());
-                    obj.FechaEntrada = Convert.ToDateTime(dr["fechaEnrada"].ToString());
+                    //obj.FechaVencimiento = Convert.ToString(dr["fechaVencimiento"].ToString());
+                    //obj.FechaEntrada = Convert.ToString(dr["fechaEnrada"].ToString());
                     obj.Cantidad = Convert.ToInt32(dr["Cantidad"].ToString());
-                    obj.Precio = Convert.ToSingle(dr["Cantidad"].ToString());
+                    obj.Precio = Convert.ToSingle(dr["Precio"].ToString());
                     obj.Estado = true;
-
-
                     // añadir a la lista de objetos
                     Lista.Add(obj);
                 }

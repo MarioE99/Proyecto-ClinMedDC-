@@ -26,7 +26,7 @@ namespace CapaLogicaNegocio
         #endregion
 
 
-        public List<Medicamento> ListarMedicamento()
+        public List<Medicamento> ListarMedicamentos()
         {
             try
             {
@@ -50,11 +50,11 @@ namespace CapaLogicaNegocio
             }
         }
 
-        public bool Actualizar(Medicamento obj)
+        public bool ActualizarDatosMedicamento(Medicamento obj)
         {
             try
             {
-                return MedicamentoDAO.getInstance().Actualizar(obj);
+                return MedicamentoDAO.getInstance().ActualizarDatosMedicamento(obj);
             }
             catch (Exception ex)
             {

@@ -6,7 +6,7 @@
 
 
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE MEDICOS</h1>
+        <h1 style="text-align: center">REGISTRO DE MEDICAMENTOS</h1>
     </section>
     <section class="content">
         <div Style="width:100%" class="row">
@@ -24,13 +24,15 @@
                             <label>FECHA DE VENCIMIENTO</label>
                         </div>
                         <div class="form-group">
-                            <asp:Calendar ID="calendarVencimiento" runat="server" Height="147px" Width="172px"></asp:Calendar>
+                            <asp:Label ID="Fecha" runat="server" Text="Fecha"></asp:Label>
+                            <asp:TextBox ID="txtVencimiento" runat="server" TextMode="Date"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE ENTRADA</label>
                         </div>
                         <div class="form-group">
-                            <asp:Calendar ID="calendarEntrada" runat="server" Height="99px" Width="159px"></asp:Calendar>
+                            <asp:Label ID="Label1" runat="server" Text="Fecha"></asp:Label>
+                            <asp:TextBox ID="txtEntrada" runat="server" TextMode="Date"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>CANTIDAD</label>
@@ -47,7 +49,7 @@
                         </div>
 
                          <div class="form-group">
-                          <label>ESPECIALIDAD</label>
+                          <label>LABORATORIO</label>
                           <asp:DropDownList ID="ddlLaboratorio" CssClass="form-control" runat="server"></asp:DropDownList>
                         </div>
                     </div>
@@ -61,11 +63,7 @@
                         </div>
                        
                         <div class="form-group">
-                            <label>Tipo Empleado</label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtTipoEmpleado" runat="server" Text="Medico" Enabled="false" CssClass="form-control"></asp:TextBox>
-                        </div>
+                            &nbsp;</div>
 
                     </div>
                 </div>
@@ -101,10 +99,9 @@
                                     <th>Código</th>
                                     <th>Nombre laboratorio</th>
                                     <th>Nombre Medicamento</th>
-                                    <th>Fecha de vencimiento</th>
-                                    <th>Fecha de entrada</th>
                                     <th>Cantidad</th>
                                     <th>Precio</th>
+                                    <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody id="tbl_body_table">
@@ -128,31 +125,24 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label>NOMBRES</label>
+                        <label>NOMBRE DE MEDICAMENTO</label>
                     </div>
                     <div class="form-group">
-                        <asp:TextBox ID="txtName" runat="server" Text="" CssClass="form-control" Enabled="false"></asp:TextBox>
+                        <asp:TextBox ID="txtName" runat="server" Text="" CssClass="form-control" Enabled="true"></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <label>AP_PATERNO</label>
+                        <label>CANTIDAD</label>
                     </div>
                     <div class="form-group">
-                        <asp:TextBox ID="txtPaterno" runat="server" Text="" CssClass="form-control" Enabled="false" ></asp:TextBox>
+                        <asp:TextBox ID="txtCantidadModal" runat="server" Text="" CssClass="form-control" Enabled="true" ></asp:TextBox>
                     </div>
                     <div class="form-group">
-                        <label>AP_MATERNO</label>
+                        <label>PRECIO</label>
                     </div>
                     <div class="form-group">
-                        <asp:TextBox ID="txtMaterno" runat="server" Text="" CssClass="form-control" Enabled="false"></asp:TextBox>
+                        <asp:TextBox ID="txtPrecioModal" runat="server" Text="" CssClass="form-control" Enabled="true"></asp:TextBox>
                     </div>
-                    <div class="form-group">
-                        <label>DNI</label>
-                    </div>
-                    <div class="form-group">
-                        <asp:TextBox ID="txtDNI" runat="server" Text="" CssClass="form-control" ></asp:TextBox>
-                    </div>
-
-                </div>
+                  </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" id="btnactualizar">Actualizar</button>
                 </div>

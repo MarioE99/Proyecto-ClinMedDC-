@@ -24,22 +24,40 @@ namespace PaginaWebClinina
         protected global::System.Web.UI.WebControls.TextBox txtNombreMedicamento;
 
         /// <summary>
-        /// Control calendarVencimiento.
+        /// Control Fecha.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calendarVencimiento;
+        protected global::System.Web.UI.WebControls.Label Fecha;
 
         /// <summary>
-        /// Control calendarEntrada.
+        /// Control txtVencimiento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calendarEntrada;
+        protected global::System.Web.UI.WebControls.TextBox txtVencimiento;
+
+        /// <summary>
+        /// Control Label1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// Control txtEntrada.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtEntrada;
 
         /// <summary>
         /// Control txtCantidad.
@@ -69,15 +87,6 @@ namespace PaginaWebClinina
         protected global::System.Web.UI.WebControls.DropDownList ddlLaboratorio;
 
         /// <summary>
-        /// Control txtTipoEmpleado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTipoEmpleado;
-
-        /// <summary>
         /// Control btnRegistrar.
         /// </summary>
         /// <remarks>
@@ -105,30 +114,21 @@ namespace PaginaWebClinina
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// Control txtPaterno.
+        /// Control txtCantidadModal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPaterno;
+        protected global::System.Web.UI.WebControls.TextBox txtCantidadModal;
 
         /// <summary>
-        /// Control txtMaterno.
+        /// Control txtPrecioModal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaterno;
-
-        /// <summary>
-        /// Control txtDNI.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDNI;
+        protected global::System.Web.UI.WebControls.TextBox txtPrecioModal;
     }
 }

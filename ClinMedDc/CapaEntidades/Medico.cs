@@ -19,7 +19,6 @@ namespace CapaEntidades
 
         }
 
-
         public Medico(int IdMedico, Especialidad _Especialidad, bool Estado)
             :base(0, new TipoEmpleado(), "", "", "",true, "", "", "")
         {

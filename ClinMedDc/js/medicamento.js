@@ -1,7 +1,8 @@
-﻿var tabla,data;
+﻿var tabla, data;
 
 //Funcion para cargar la tabla
 function addRowDT(data) {
+    tbl_medicamentos
     tabla = $("#tbl_medicamentos").DataTable({
         "oLanguage": {
             "oPaginate": {
@@ -18,8 +19,6 @@ function addRowDT(data) {
             null,
             null,
             null,
-            null,
-            null,
             { "bSortable": false }
         ]
     });
@@ -29,25 +28,22 @@ function addRowDT(data) {
     for (var i = 0; i < data.length; i++) {
         tabla.fnAddData([
             data[i].IdMedicamento,
-            data[i].Laboratorio.nombreLaboratorio,
-            data[i].nombreMedicamento,
-            data[i].fechaVencimiento,
-            data[i].fechaEntrada,
+            data[i].Laboratorio.NombreLaboratorio,
+            data[i].NombreMedicamento,
             data[i].Cantidad,
             data[i].Precio,
             '<button type="button" value="Actualizar" title="Actualizar" class="btn btn-primary btn-edit" data-target="#imodal" data-toggle="modal"><i class="fa fa-check-square-o" aria-hidden="true"></i></button>&nbsp;' +
             '<button type="button" value="Eliminar" title="Eliminar" class="btn btn-danger btn-delete"><i class="fa fa-minus-square-o" aria-hidden="true"></i></button>'
-         ]);
+        ]);
     }
 
 }
-
 
 //Funcion para Listar mediante AJAX
 function sendDataAjax() {
     $.ajax({
         type: "POST",
-        url: "GestionarMedicamentos.aspx/ListarMedicamento",
+        url: "GestionarMedicamentos.aspx/ListarMedicamentos",
         data: {},
         contentType: 'application/json; charset=utf-8',
         error: function (xhr, ajaxOptions, thrownError) {
@@ -62,27 +58,27 @@ function sendDataAjax() {
 
 //Funcion para actualizar mediante AJAX
 function updateDataAjax() {
+
     var obj = JSON.stringify({
-        id: JSON.stringify(data[0]),
-        documento: $("#txtDNI").val()
+        id: JSON.stringify(data[0]), nombreMedicamento: $("#txtName").val(), Cantidad: $("#txtCantidadModal").val(), Precio: $("#txtPrecioModal").val()
     });
+
     $.ajax({
         type: "POST",
         url: "GestionarMedicamentos.aspx/ActualizarDatosMedicamento",
-        data:obj,
+        data: obj,
         dataType: "json",
         contentType: 'application/json; charset=utf-8',
         error: function (xhr, ajaxOptions, thrownError) {
             console.log(xhr.status + " \n" + xhr.responseText, "\n" + thrownError);
         },
         success: function (response) {
-            $("#imodal").modal('toggle');
             if (response.d) {
+                $("#imodal").modal('toggle');
                 alert("Registro actualizado de manera correcta.");
             } else {
                 alert("No se pudo actualizar el registro.");
             }
-        
         }
     });
 }
@@ -95,7 +91,7 @@ function deleteDataAjax(data) {
     });
     $.ajax({
         type: "POST",
-        url: "GestionarMedico.aspx/EliminarDatosMedico",
+        url: "GestionarMedicamentos.aspx/EliminarDatosMedicamento",
         data: obj,
         dataType: "json",
         contentType: 'application/json; charset=utf-8',
@@ -147,18 +143,18 @@ $("#btnCancelar").click(function (e) {
 
 //Funcion Limpiar Campos
 function Limpiar() {
-    $("#txtNroDocumento").val("");
-    $("#txtNombres").val("");
-    $("#txtApellidos").val("");
-    $("#ddlEspecialidad")[0].selectedIndex = 0;
+    $("#txtNombreMedicamento").val("");
+    $("#txtCantidad").val("");
+    $("#txtPrecio").val("");
+    $("#ddlLaboratorio")[0].selectedIndex = 0;
 }
 
 
 // cargar datos en el modal
 function fillModalData() {
-    $("#txtName").val(data[1]);
-    $("#txtApellidos").val(data[2]);
-    $("#txtDNI").val(data[3]);
+    $("#txtName").val(data[2]);
+    $("#txtCantidadModal").val(data[3]);
+    $("#txtPrecioModal").val(data[4]);
 }
 
 
@@ -168,6 +164,4 @@ $("#btnactualizar").click(function (e) {
     updateDataAjax();
     sendDataAjax();
 });
-
-
 sendDataAjax();

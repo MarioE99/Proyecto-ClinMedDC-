@@ -22,12 +22,12 @@ namespace PaginaWebClinina
         }
 
         [WebMethod]
-        public static List<Medicamento> ListarMedicamento()
+        public static List<Medicamento> ListarMedicamentos()
         {
             List<Medicamento> Lista = null;
             try
             {
-                Lista = MedicamentoLN.getInstance().ListarMedicamento();
+                Lista = MedicamentoLN.getInstance().ListarMedicamentos();
             }
             catch (Exception)
             {
@@ -37,18 +37,18 @@ namespace PaginaWebClinina
         }
 
         [WebMethod]
-        public static bool ActualizarDatosMedicamento(String id, String medicamento, int cantidad, float precio)
+        public static bool ActualizarDatosMedicamento(String id, String nombreMedicamento, int Cantidad, float Precio)
         {
             Medicamento obj = new Medicamento()
             {
                 IdMedicamento = Convert.ToInt32(id),
-                NombreMedicamento = medicamento,
-                Cantidad = cantidad,
-                Precio = precio
+                NombreMedicamento = nombreMedicamento,
+                Cantidad = Cantidad,
+                Precio = Precio
 
             };
 
-            bool ok = MedicamentoLN.getInstance().Actualizar(obj);
+            bool ok = MedicamentoLN.getInstance().ActualizarDatosMedicamento(obj);
 
             return ok;
         }
@@ -66,16 +66,13 @@ namespace PaginaWebClinina
 
         private Medicamento GetEntity()
         {
-
             Medicamento obj = new Medicamento();
-            obj.IdMedicamento = 0;          
+            obj.IdMedicamento = 0;
+            obj.Laboratorio = new Laboratorio();
+            obj.Laboratorio.IdLaboratorio = (ddlLaboratorio.SelectedIndex) + 1;
             obj.NombreMedicamento = txtNombreMedicamento.Text;
-            obj.FechaVencimiento = calendarVencimiento.SelectedDate;
-            obj.FechaEntrada = calendarEntrada.SelectedDate;
             obj.Cantidad = Convert.ToInt32(txtCantidad.Text);
             obj.Precio = Convert.ToSingle(txtPrecio.Text);
-            obj.Laboratorio = new Laboratorio();
-            obj.Laboratorio.IdLaboratorio = (ddlLaboratorio.SelectedIndex)+1;
             obj.Estado = true;
 
             return obj;
