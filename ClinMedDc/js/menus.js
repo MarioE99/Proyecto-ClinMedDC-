@@ -132,7 +132,7 @@ function deleteDataAjax(data) {
 }
 
 // cargar datos en el modal
-function fillModalData() {
+function fillModalData(){
     $("#txtANombrePermiso").val(data[1]);
     $("#txtAUrlPermiso").val(data[2]);
     if (data[3] == "Activo") {

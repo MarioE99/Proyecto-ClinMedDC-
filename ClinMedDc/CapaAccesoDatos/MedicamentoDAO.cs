@@ -38,6 +38,8 @@ namespace CapaAccesoDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@prmIdMedicamento", obj.IdMedicamento);
                 cmd.Parameters.AddWithValue("@prmNombreMedicamento", obj.NombreMedicamento);
+                //cmd.Parameters.AddWithValue("@prmFechaVencimiento", obj.FechaVencimiento);
+                //cmd.Parameters.AddWithValue("@prmFechaEntrada", obj.FechaEntrada);
                 cmd.Parameters.AddWithValue("@prmCantidad", obj.Cantidad);
                 cmd.Parameters.AddWithValue("@prmPrecio", obj.Precio);
 
@@ -71,6 +73,8 @@ namespace CapaAccesoDatos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@prmNombreMedicamento",obj.NombreMedicamento);
                 cmd.Parameters.AddWithValue("@prmidLaboratorio",obj.Laboratorio.IdLaboratorio);
+                cmd.Parameters.AddWithValue("@prmfechaVencimiento", obj.FechaVencimiento);
+                cmd.Parameters.AddWithValue("@prmfechaEntrada", obj.FechaEntrada);
                 cmd.Parameters.AddWithValue("@prmCantidad",obj.Cantidad);
                 cmd.Parameters.AddWithValue("@prmPrecio",obj.Precio);
                 cmd.Parameters.AddWithValue("@prmEstado",obj.Estado);
@@ -115,8 +119,8 @@ namespace CapaAccesoDatos
                     obj.Laboratorio = new Laboratorio();
                     obj.Laboratorio.NombreLaboratorio = dr["nombreLaboratorio"].ToString();
                     obj.NombreMedicamento = dr["nombreMedicamento"].ToString();
-                    //obj.FechaVencimiento = Convert.ToString(dr["fechaVencimiento"].ToString());
-                    //obj.FechaEntrada = Convert.ToString(dr["fechaEnrada"].ToString());
+                    obj.FechaVencimiento = Convert.ToDateTime(dr["fechaVencimiento"].ToString());
+                    obj.FechaEntrada = Convert.ToDateTime(dr["FechaEntrada"].ToString());
                     obj.Cantidad = Convert.ToInt32(dr["Cantidad"].ToString());
                     obj.Precio = Convert.ToSingle(dr["Precio"].ToString());
                     obj.Estado = true;

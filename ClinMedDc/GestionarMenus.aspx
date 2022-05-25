@@ -98,7 +98,7 @@
                             <label>NOMBRE</label>
                         </div>
                         <div class="form-group">
-                            <asp:TextBox ID="txtANombrePermiso" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtANombrePermiso" runat="server" Text="" Enabled="true" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>RUTA</label>

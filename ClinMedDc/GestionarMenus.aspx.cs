@@ -44,7 +44,7 @@ namespace PaginaWebClinina
         }
 
         [WebMethod]
-        public static bool ActualizarDatosMenu(String id, String nombrePermiso, String urlPermiso, String ymenuPrincipal, bool zisActivo, bool zisSubmenu)
+        public static bool ActualizarMenu(String id, String nombrePermiso, String urlPermiso, String ymenuPrincipal, bool zisActivo, bool zisSubmenu)
         {
             CapaEntidades.Menu objMenu = new CapaEntidades.Menu();
             objMenu.IdMenu = Convert.ToInt32(id);

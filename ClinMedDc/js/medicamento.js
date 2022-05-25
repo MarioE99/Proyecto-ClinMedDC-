@@ -19,23 +19,42 @@ function addRowDT(data) {
             null,
             null,
             null,
+            null,
+            null,
+           
             { "bSortable": false }
         ]
     });
 
-    tabla.fnClearTable();
+    //Funcion para convertir la fecha
+    function convertToJavaScriptDate(value) {
+        var pattern = /Date\(([^)]+)\)/;
+        var results = pattern.exec(value);
+        var dt = new Date(parseFloat(results[1]));
+        //return (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear();
+        return (dt.getDate()) + "/" + (dt.getMonth() + 1) + "/" + dt.getFullYear();
+        //return (dt.getFullYear()) + "/" + (dt.getMonth() + 1) + "/" + dt.getDate();
+    }
+
+
+        tabla.fnClearTable();
 
     for (var i = 0; i < data.length; i++) {
+
         tabla.fnAddData([
             data[i].IdMedicamento,
             data[i].Laboratorio.NombreLaboratorio,
             data[i].NombreMedicamento,
+            data[i].FechaVencimiento = convertToJavaScriptDate(data[i].FechaVencimiento),
+            data[i].FechaEntrada = convertToJavaScriptDate(data[i].FechaEntrada),
             data[i].Cantidad,
             data[i].Precio,
             '<button type="button" value="Actualizar" title="Actualizar" class="btn btn-primary btn-edit" data-target="#imodal" data-toggle="modal"><i class="fa fa-check-square-o" aria-hidden="true"></i></button>&nbsp;' +
             '<button type="button" value="Eliminar" title="Eliminar" class="btn btn-danger btn-delete"><i class="fa fa-minus-square-o" aria-hidden="true"></i></button>'
         ]);
     }
+
+
 
 }
 
@@ -60,7 +79,13 @@ function sendDataAjax() {
 function updateDataAjax() {
 
     var obj = JSON.stringify({
-        id: JSON.stringify(data[0]), nombreMedicamento: $("#txtName").val(), Cantidad: $("#txtCantidadModal").val(), Precio: $("#txtPrecioModal").val()
+        id: JSON.stringify(data[0]),
+        nombreMedicamento: $("#txtName").val(),
+        //FechaVencimiento: $("#txtVencimientoModal").val(),
+        //FechaEntrada: $("#txtEntradaModal").val(),
+        Cantidad: $("#txtCantidadModal").val(),
+        Precio: $("#txtPrecioModal").val()
+
     });
 
     $.ajax({
@@ -144,6 +169,8 @@ $("#btnCancelar").click(function (e) {
 //Funcion Limpiar Campos
 function Limpiar() {
     $("#txtNombreMedicamento").val("");
+    $("#txtVencimiento").val("");
+    $("#txtEntrada").val("");
     $("#txtCantidad").val("");
     $("#txtPrecio").val("");
     $("#ddlLaboratorio")[0].selectedIndex = 0;
@@ -153,8 +180,10 @@ function Limpiar() {
 // cargar datos en el modal
 function fillModalData() {
     $("#txtName").val(data[2]);
-    $("#txtCantidadModal").val(data[3]);
-    $("#txtPrecioModal").val(data[4]);
+    //$("#txtVencimientoModal").val(data[3]);
+    //$("#txtEntradaModal").val(data[4]);
+    $("#txtCantidadModal").val(data[5]);
+    $("#txtPrecioModal").val(data[6]);
 }
 
 

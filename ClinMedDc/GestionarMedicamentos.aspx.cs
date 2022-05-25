@@ -66,11 +66,14 @@ namespace PaginaWebClinina
 
         private Medicamento GetEntity()
         {
+
             Medicamento obj = new Medicamento();
             obj.IdMedicamento = 0;
             obj.Laboratorio = new Laboratorio();
             obj.Laboratorio.IdLaboratorio = (ddlLaboratorio.SelectedIndex) + 1;
             obj.NombreMedicamento = txtNombreMedicamento.Text;
+            obj.FechaVencimiento = Convert.ToDateTime(txtVencimiento.Text);
+            obj.FechaEntrada = Convert.ToDateTime(txtEntrada.Text);
             obj.Cantidad = Convert.ToInt32(txtCantidad.Text);
             obj.Precio = Convert.ToSingle(txtPrecio.Text);
             obj.Estado = true;
@@ -107,8 +110,11 @@ namespace PaginaWebClinina
         private void Limpiar()
         {
             txtNombreMedicamento.Text = "";
+            txtVencimiento.Text = "";
+            txtEntrada.Text = "";
             txtCantidad.Text = "";
             txtPrecio.Text = "";
+
             ddlLaboratorio.SelectedIndex = 0;
         }
     }

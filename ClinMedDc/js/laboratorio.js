@@ -55,7 +55,10 @@ function sendDataAjax() {
 //Función para actualizar mediante ajax
 function updateDataAjax() {
 
-    var obj = JSON.stringify({ id: JSON.stringify(data[0]), nombreLaboratorio: $("#txtNameLab").val(), descripcion: $("#txtModalDescripcion").val() });
+    var obj = JSON.stringify({
+        id: JSON.stringify(data[0]),
+        nombreLaboratorio: $("#txtNameLab").val(), descripcion: $("#txtModalDescripcion").val()
+    });
 
     $.ajax({
         type: "POST",

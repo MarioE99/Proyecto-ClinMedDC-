@@ -4,7 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-
     <section class="content-header">
         <h1 style="text-align: center">REGISTRO DE MEDICAMENTOS</h1>
     </section>
@@ -23,16 +22,16 @@
                         <div class="form-group">
                             <label>FECHA DE VENCIMIENTO</label>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" >
                             <asp:Label ID="Fecha" runat="server" Text="Fecha"></asp:Label>
-                            <asp:TextBox ID="txtVencimiento" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:TextBox ID="txtVencimiento" runat="server" TextMode="Date" ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>FECHA DE ENTRADA</label>
                         </div>
                         <div class="form-group">
                             <asp:Label ID="Label1" runat="server" Text="Fecha"></asp:Label>
-                            <asp:TextBox ID="txtEntrada" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:TextBox ID="txtEntrada" runat="server" TextMode="Date"  ></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>CANTIDAD</label>
@@ -59,7 +58,7 @@
                 <div class="box box-primary">
                     <div class="box-body">
                         <div class="form-group">
-                            <img src="img/medico-de-familia.jpg"/>
+                            &nbsp;<asp:Image ID="Image1" runat="server" Height="324px" ImageUrl="~/img/medicamentos.png" Width="338px" />
                         </div>
                        
                         <div class="form-group">
@@ -90,7 +89,7 @@
             <div class="col-xs-12">
                 <div class="box box-primary">
                     <div class="box-header">
-                        <h3 class="box-title">Lista de Médicos</h3>
+                        <h3 class="box-title">Lista de Médicamentos</h3>
                     </div>
                     <div class="box-body table-responsive">
                         <table id="tbl_medicamentos" class="table table-bordered table-hover text-center">
@@ -99,6 +98,8 @@
                                     <th>Código</th>
                                     <th>Nombre laboratorio</th>
                                     <th>Nombre Medicamento</th>
+                                     <th>Fecha Vencimiento</th>
+                                     <th>Fecha Entrada</th>
                                     <th>Cantidad</th>
                                     <th>Precio</th>
                                     <th>Acciones</th>
@@ -128,8 +129,20 @@
                         <label>NOMBRE DE MEDICAMENTO</label>
                     </div>
                     <div class="form-group">
-                        <asp:TextBox ID="txtName" runat="server" Text="" CssClass="form-control" Enabled="true"></asp:TextBox>
+                        <asp:TextBox ID="txtName" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                     </div>
+                    <!--div class="form-group">
+                        <label>FECHA DE VENCIMIENTO</label>
+                    </!--div>
+                    <div class="form-group">
+                        <asp:TextBox ID="txtVencimientoModal"  runat="server" Text="" CssClass="form-control" Enabled="true" TextMode="Date" ></asp:TextBox>
+                    </div-->
+                     <!--div class="form-group">
+                        <label>FECHA DE ENTRADA</label>
+                    </!--div>
+                    <div class="form-group">
+                        <asp:TextBox ID="txtEntradaModal" runat="server" Text="" CssClass="form-control" Enabled="true" Font-Underline="True" TextMode="Date"></asp:TextBox>
+                    </div-->
                     <div class="form-group">
                         <label>CANTIDAD</label>
                     </div>
@@ -147,9 +160,9 @@
                     <button type="button" class="btn btn-primary" id="btnactualizar">Actualizar</button>
                 </div>
             </div>
-        </div>
-    </div>
-    
+         </div>
+     </div>
+
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
