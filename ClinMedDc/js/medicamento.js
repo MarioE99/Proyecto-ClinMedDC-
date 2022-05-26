@@ -54,8 +54,6 @@ function addRowDT(data) {
         ]);
     }
 
-
-
 }
 
 //Funcion para Listar mediante AJAX
@@ -73,7 +71,6 @@ function sendDataAjax() {
         }
     });
 }
-
 
 //Funcion para actualizar mediante AJAX
 function updateDataAjax() {
@@ -107,7 +104,6 @@ function updateDataAjax() {
         }
     });
 }
-
 
 //Funcion para Eliminar mediante AJAX
 function deleteDataAjax(data) {

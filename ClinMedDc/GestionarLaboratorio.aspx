@@ -3,14 +3,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
-
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE LABORATORIOS</h1>
+        <h1 style="text-align: center">REGISTRO DE LABORATORIOS&nbsp;
+                            <asp:Image ID="Laboratorios" runat="server" Height="80px" ImageUrl="~/img/laboratorio.png" Width="75px" />
+                            </h1>
     </section>
     <section class="content">
         <div Style="width:100%" class="row">
-            <div class="col-md-6">
                 <div class="box box-primary">
                     <div class="box-body">
                        
@@ -21,24 +20,13 @@
                             <asp:TextBox ID="txtNombreLab" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            DESCRIPCION</div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtDescripcion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                            DESCRIPCION<asp:TextBox ID="txtDescripcion" runat="server" Text="" CssClass="form-control"></asp:TextBox>
                         </div>
-                    </div>
+                        
+                        </div>             
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="box box-primary">
-                    <div class="box-body">
-                        <div class="form-group">
-                            <img src="img/medico-de-familia.jpg"/>
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <div align="center">
             <table>

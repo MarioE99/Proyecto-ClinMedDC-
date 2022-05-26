@@ -6,7 +6,9 @@
 
 
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE MEDICOS</h1>
+        <h1 style="text-align: center">REGISTRO DE MEDICOS&nbsp;
+            <asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/img/medicoimg.png" Width="75px" />
+        </h1>
     </section>
     <section class="content">
         <div Style="width:100%" class="row">
@@ -42,11 +44,7 @@
                 <div class="box box-primary">
                     <div class="box-body">
                         <div class="form-group">
-                            &nbsp;<img src="img/medicoimg.png"/></div>
-                       
-                        <div class="form-group">
-                            <label>Tipo Empleado</label>
-                        </div>
+                            &nbsp;<label>Tipo Empleado</label> </div>
                         <div class="form-group">
                             <asp:TextBox ID="txtTipoEmpleado" runat="server" Text="Medico" Enabled="false" CssClass="form-control"></asp:TextBox>
                         </div>

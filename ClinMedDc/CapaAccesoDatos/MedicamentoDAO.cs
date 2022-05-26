@@ -140,6 +140,94 @@ namespace CapaAccesoDatos
             return Lista;
         }
 
+        public List<Medicamento> ListarMedicamentosStock()
+        {
+            List<Medicamento> Lista = new List<Medicamento>();
+            SqlConnection con = null;
+            SqlCommand cmd = null;
+            SqlDataReader dr = null;
+
+            try
+            {
+                con = Conexion.getInstance().ConexionBD();
+                cmd = new SqlCommand("spListarMedicamentosStock", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+                dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    // Crear objetos de tipo Medicamento
+                    Medicamento obj = new Medicamento();
+                    obj.IdMedicamento = Convert.ToInt32(dr["idMedicamento"].ToString());
+                    obj.Laboratorio = new Laboratorio();
+                    obj.Laboratorio.NombreLaboratorio = dr["nombreLaboratorio"].ToString();
+                    obj.NombreMedicamento = dr["nombreMedicamento"].ToString();
+                    obj.FechaVencimiento = Convert.ToDateTime(dr["fechaVencimiento"].ToString());
+                    obj.FechaEntrada = Convert.ToDateTime(dr["FechaEntrada"].ToString());
+                    obj.Cantidad = Convert.ToInt32(dr["Cantidad"].ToString());
+                    obj.Precio = Convert.ToSingle(dr["Precio"].ToString());
+                    obj.Estado = true;
+                    // añadir a la lista de objetos
+                    Lista.Add(obj);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                con.Close();
+            }
+            return Lista;
+        }
+
+        public List<Medicamento> ListarMedicamentosVencimiento()
+        {
+            List<Medicamento> Lista = new List<Medicamento>();
+            SqlConnection con = null;
+            SqlCommand cmd = null;
+            SqlDataReader dr = null;
+
+            try
+            {
+                con = Conexion.getInstance().ConexionBD();
+                cmd = new SqlCommand("spListarMedicamentosVencimiento", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                con.Open();
+                dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    // Crear objetos de tipo Medicamento
+                    Medicamento obj = new Medicamento();
+                    obj.IdMedicamento = Convert.ToInt32(dr["idMedicamento"].ToString());
+                    obj.Laboratorio = new Laboratorio();
+                    obj.Laboratorio.NombreLaboratorio = dr["nombreLaboratorio"].ToString();
+                    obj.NombreMedicamento = dr["nombreMedicamento"].ToString();
+                    obj.FechaVencimiento = Convert.ToDateTime(dr["fechaVencimiento"].ToString());
+                    obj.FechaEntrada = Convert.ToDateTime(dr["FechaEntrada"].ToString());
+                    obj.Cantidad = Convert.ToInt32(dr["Cantidad"].ToString());
+                    obj.Precio = Convert.ToSingle(dr["Precio"].ToString());
+                    obj.Estado = true;
+                    // añadir a la lista de objetos
+                    Lista.Add(obj);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                con.Close();
+            }
+            return Lista;
+        }
+
         public bool Eliminar(int id)
         {
             SqlConnection conexion = null;

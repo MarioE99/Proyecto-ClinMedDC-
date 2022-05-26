@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="PaginaWebClinina.login" %>
 <!DOCTYPE html>
-<html  style="background-image:url(/img/loginClinica.jpg)" xmlns="http://www.w3.org/1999/xhtml">
+<html  style="background-image:url(/img/fondologin.jpg)" background-size: cover xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login Clinica</title>
@@ -10,12 +10,12 @@
    <link rel="icon" href="img/clinica_318-1538.jpg" />
 </head>
  
-<body>
+<body style="background-image:url(/img/fondologin.jpg)" background-size: cover;>
     <form id="form1" runat="server">
     <div class="form-box" id="login-box">
       <asp:Login ID="LoginUser" runat="server" EnableViewState="false" OnAuthenticate="LoginUser_Authenticate" Width="88%">
          <LayoutTemplate>
-             <div class="header bg-blue">Bienvenido a ClinMed DC</div>
+             <div class="header bg-blue">Bienvenido a ClinMed DC </div>
                     <div class="body bg-gray">
                         <div class="form-group">
                               <div style="margin-left: auto; margin-right: auto; text-align: center;">

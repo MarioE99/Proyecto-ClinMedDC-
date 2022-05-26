@@ -6,7 +6,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE PACIENTES</h1>
+        <h1 style="text-align: center">REGISTRO DE PACIENTES<asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/img/paciente.png" Width="75px" />
+        </h1>
     </section>
     <section class="content">
         <div style="width: 100%" class="row">

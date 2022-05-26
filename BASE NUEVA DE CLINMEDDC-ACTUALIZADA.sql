@@ -882,6 +882,8 @@ AS
 	END
 GO
 /****** Object:  StoredProcedure [dbo].[spListarEspecialidades]    Script Date: 25/5/2022 16:04:30 ******/
+DROP PROCEDURE [spListarEspecialidades]
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -894,6 +896,55 @@ AS
 		WHERE E.estado = 1
 	END
 GO
+
+/** Object:  StoredProcedure [dbo].[spListarMedicamentosBajoStock]    Script Date: 25/5/2022 16:18:19 **/
+DROP PROCEDURE [spListarMedicamentosStock]
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spListarMedicamentosStock]
+AS
+	BEGIN
+		SELECT M.idMedicamento
+			, ES.nombreLaboratorio
+			, M.fechaVencimiento
+			, M.fechaEntrada
+		    , M.nombreMedicamento
+			, M.Cantidad
+			, M.Precio
+		FROM Medicamentos M
+		INNER JOIN Laboratorio ES on M.idLaboratorio = ES.idLaboratorio
+		WHERE M.estado = 1 and Es.estado = 1 and M.Cantidad<=10
+	END
+GO
+------------- LISTAR
+DROP PROCEDURE spListarMedicamentosVencimiento
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spListarMedicamentosVencimiento]
+AS
+	BEGIN
+	
+	  SELECT M.idMedicamento
+			, ES.nombreLaboratorio
+			, M.fechaVencimiento
+			, M.fechaEntrada
+		    , M.nombreMedicamento
+			, M.Cantidad
+			, M.Precio
+		FROM Medicamentos M
+		INNER JOIN Laboratorio ES on M.idLaboratorio = ES.idLaboratorio
+		WHERE M.fechaVencimiento >= GETDATE();
+
+
+	END
+GO
+
 /****** Object:  StoredProcedure [dbo].[spListarLaboratorio]    Script Date: 25/5/2022 16:04:30 ******/
 SET ANSI_NULLS ON
 GO

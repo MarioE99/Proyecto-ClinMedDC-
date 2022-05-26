@@ -22,3 +22,9 @@ C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaEntidades\ob
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaEntidades\obj\Debug\CapaEntidades.pdb
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaEntidades\bin\Debug\CapaEntidades.dll
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Debug\CapaEntidades.pdb

@@ -1,57 +1,20 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="GestionarMedicamentos.aspx.cs" Inherits="PaginaWebClinina.GestionarMedicamento" ClientIDMode="Static"%>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="GestionarVencimiento.aspx.cs" Inherits="PaginaWebClinina.GestionarVencimiento" ClientIDMode="Static"%>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
     <section class="content-header">
-        <h1 style="text-align: center">REGISTRO DE MEDICAMENTOS&nbsp;&nbsp;
+        <h1 style="text-align: center">REGISTRO DE MEDICAMENTOS VENCIMIENTO&nbsp;&nbsp;
             <asp:Image ID="Image1" runat="server" Height="80px" ImageUrl="~/img/medicamentos.png" Width="75px" />
                         </h1>
     </section>
     <section class="content">
         <div Style="width:100%" class="row">
-                <div class="box box-primary">
+                <div class="box box-primary" style="align-content:center">
                     <div class="box-body">
-                       
-                        <div class="form-group">
-                            <label>NOMBRE DE MEDICAMENTO</label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtNombreMedicamento" runat="server" Text="" CssClass="form-control" Width="400px"></asp:TextBox>
-                        </div>
-                        <div class="form-group">
-                            <label>FECHA DE VENCIMIENTO</label>
-                        </div>
-                        <div class="form-group" >
-                            <asp:Label ID="Fecha" runat="server" Text="Fecha"></asp:Label>
-                            <asp:TextBox ID="txtVencimiento" runat="server" TextMode="Date" Width="215px" ></asp:TextBox>
-                        </div>
-                        <div class="form-group">
-                            <label>FECHA DE ENTRADA</label>
-                        </div>
-                        <div class="form-group">
-                            <asp:Label ID="Label1" runat="server" Text="Fecha"></asp:Label>
-                            <asp:TextBox ID="txtEntrada" runat="server" TextMode="Date" Width="215px"  ></asp:TextBox>
-                        </div>
-                        <div class="form-group">
-                            <label>CANTIDAD</label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtCantidad" runat="server" Text="" CssClass="form-control" Width="100px"></asp:TextBox>
-                        </div>
-
-                        <div class="form-group">
-                            <label>PRECIO</label>
-                        </div>
-                        <div class="form-group">
-                            <asp:TextBox ID="txtPrecio" runat="server" Text="" CssClass="form-control" MaxLength="8" Width="100px"></asp:TextBox>
-                        </div>
-
-                         <div class="form-group">
-                          <label>LABORATORIO</label>
-                          <asp:DropDownList ID="ddlLaboratorio" CssClass="form-control" runat="server" Width="400px"></asp:DropDownList>
-                        </div>
+                        <div class="form-group" align="center">
+                            <label>APARTADO DE VENCIMIENTO, AQUI SE MUESTRA LOS MEDICAMENTOS QUE ESTAN POR ACABARSE</label></div>
                     </div>
                 </div>
             </div>
@@ -60,12 +23,10 @@
             <table>
                 <tr>
                     <td>
-                        <asp:Button ID="btnRegistrar" runat="server" CssClass="btn btn-primary" Width="200px" Text="Registrar" OnClick="btnRegistrar_Click" />
-                    </td>
+                        &nbsp;</td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
                     <td>
-                        <asp:Button ID="btnCancelar" runat="server" CssClass="btn btn-danger" Width="200px" Text="Cancelar" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
             </table>
         </div>
@@ -79,17 +40,16 @@
                         <h3 class="box-title">Lista de Médicamentos</h3>
                     </div>
                     <div class="box-body table-responsive">
-                        <table id="tbl_medicamentos" class="table table-bordered table-hover text-center">
+                        <table id="tbl_vencimiento" class="table table-bordered table-hover text-center">
                             <thead>
                                 <tr>
                                     <th>Código</th>
                                     <th>Nombre laboratorio</th>
                                     <th>Nombre Medicamento</th>
-                                     <th>Fecha Vencimiento</th>
-                                     <th>Fecha Entrada</th>
+                                    <th>Fecha Vencimiento</th>
+                                    <th>Fecha Entrada</th>
                                     <th>Cantidad</th>
                                     <th>Precio</th>
-                                    <th>Acciones</th>
                                 </tr>
                             </thead>
                             <tbody id="tbl_body_table">
@@ -153,7 +113,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="footer" runat="server">
-     <script src="js/medicamento.js" type="text/javascript"></script>
+     <script src="js/vencimiento.js" type="text/javascript"></script>
 </asp:Content>
 
 

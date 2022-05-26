@@ -53,3 +53,14 @@ C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaLogicaNegoci
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CopyComplete
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
 C:\Users\chele\OneDrive\Escritorio\Proyecto ClinMedDc\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaAccesoDatos.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Debug\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CopyComplete
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb

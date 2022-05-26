@@ -232,6 +232,8 @@
     <Content Include="fonts\fontawesome-webfonts.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="GestionarLaboratorio.aspx" />
+    <Content Include="GestionarVencimiento.aspx" />
+    <Content Include="GestionarStock.aspx" />
     <Content Include="GestionarMedicamentos.aspx" />
     <Content Include="GestionarMedico.aspx" />
     <Content Include="GestionarMenus.aspx" />
@@ -256,10 +258,14 @@
     <Content Include="img\credit\paypal2.png" />
     <Content Include="img\credit\visa.png" />
     <Content Include="img\fechaicon.jpg" />
+    <Content Include="img\fondologin.jpg" />
     <Content Include="img\icons.png" />
+    <Content Include="img\laboratorio.png" />
     <Content Include="img\loginusuario.png" />
     <Content Include="img\medicamentos.png" />
     <Content Include="img\medicoimg.png" />
+    <Content Include="img\paciente.png" />
+    <Content Include="img\prueba.jpg" />
     <Content Include="img\sprite-skin-flat.png" />
     <Content Include="img\sprite-skin-nice.png" />
     <Content Include="img\user-bg.png" />
@@ -278,6 +284,8 @@
     <Content Include="js\AdminLTE\demo.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\enfermera.js" />
+    <Content Include="js\vencimiento.js" />
+    <Content Include="js\stock.js" />
     <Content Include="js\horariosenfermera.js" />
     <Content Include="js\horariosmedico.js" />
     <Content Include="js\jquery-3.1.0.min.js" />
@@ -444,6 +452,20 @@
     </Compile>
     <Compile Include="GestionarLaboratorio.aspx.designer.cs">
       <DependentUpon>GestionarLaboratorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarVencimiento.aspx.cs">
+      <DependentUpon>GestionarVencimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarVencimiento.aspx.designer.cs">
+      <DependentUpon>GestionarVencimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarStock.aspx.cs">
+      <DependentUpon>GestionarStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarStock.aspx.designer.cs">
+      <DependentUpon>GestionarStock.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionarMedicamentos.aspx.cs">
       <DependentUpon>GestionarMedicamentos.aspx</DependentUpon>
