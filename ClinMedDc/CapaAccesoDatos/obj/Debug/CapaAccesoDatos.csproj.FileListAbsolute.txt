@@ -52,3 +52,12 @@ C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos
 C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
 C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\chele\OneDrive\Escritorio\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Debug\CapaEntidades.dll
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\meev9\Desktop\Proyecto ClinMedDC\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

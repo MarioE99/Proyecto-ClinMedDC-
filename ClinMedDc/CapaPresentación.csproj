@@ -231,6 +231,7 @@
     <Content Include="ErrorPage.aspx" />
     <Content Include="fonts\fontawesome-webfonts.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GestionarFactura.aspx" />
     <Content Include="GestionarLaboratorio.aspx" />
     <Content Include="GestionarVencimiento.aspx" />
     <Content Include="GestionarStock.aspx" />
@@ -284,6 +285,7 @@
     <Content Include="js\AdminLTE\demo.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\enfermera.js" />
+    <Content Include="js\factura.js" />
     <Content Include="js\vencimiento.js" />
     <Content Include="js\stock.js" />
     <Content Include="js\horariosenfermera.js" />
@@ -445,6 +447,13 @@
     </Compile>
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarFactura.aspx.cs">
+      <DependentUpon>GestionarFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarFactura.aspx.designer.cs">
+      <DependentUpon>GestionarFactura.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionarLaboratorio.aspx.cs">
       <DependentUpon>GestionarLaboratorio.aspx</DependentUpon>

@@ -49,6 +49,7 @@
     <Compile Include="MedicoDAO.cs" />
     <Compile Include="MenuDAO.cs" />
     <Compile Include="LaboratorioDAO.cs" />
+    <Compile Include="FacturaDAO.cs" />
     <Compile Include="PacienteDAO.cs" />
     <Compile Include="PermisoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

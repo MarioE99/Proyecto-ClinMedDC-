@@ -44,6 +44,8 @@
     <Compile Include="Diagnostico.cs" />
     <Compile Include="Especialidad.cs" />
     <Compile Include="HistoriaClinica.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="DetalleFactura.cs" />
     <Compile Include="Medicamento.cs" />
     <Compile Include="Medico.cs" />
     <Compile Include="Menu.cs" />

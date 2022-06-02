@@ -1383,13 +1383,14 @@ body > .header .logo .icon {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  width: 100%;
+  width: 101%;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 .box.box-primary {
   border-top-color: #3c8dbc;
     top: 0px;
     left: 0px;
+    height: 308px;
 }
 .box.box-info {
   border-top-color: #00c0ef;
