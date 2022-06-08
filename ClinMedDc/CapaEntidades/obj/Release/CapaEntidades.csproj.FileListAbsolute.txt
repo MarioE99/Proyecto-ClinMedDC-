@@ -1,0 +1,6 @@
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\bin\Release\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\bin\Release\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Release\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Release\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Release\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaEntidades\obj\Release\CapaEntidades.pdb

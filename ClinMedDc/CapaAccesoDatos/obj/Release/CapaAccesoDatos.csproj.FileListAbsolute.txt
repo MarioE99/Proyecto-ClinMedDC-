@@ -1,0 +1,9 @@
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Release\CapaAccesoDatos.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Release\CapaAccesoDatos.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Release\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\bin\Release\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Release\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Release\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Release\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Release\CapaAccesoDatos.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaAccesoDatos\obj\Release\CapaAccesoDatos.pdb

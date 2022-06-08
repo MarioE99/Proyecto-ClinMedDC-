@@ -44,6 +44,8 @@
     <Compile Include="DiagnosticoLN.cs" />
     <Compile Include="EmpleadoLN.cs" />
     <Compile Include="EspecialidadLN.cs" />
+    <Compile Include="FacturaLN.cs" />
+    <Compile Include="DetalleLN.cs" />
     <Compile Include="MedicamentoLN.cs" />
     <Compile Include="MedicoLN.cs" />
     <Compile Include="MenuLN.cs" />

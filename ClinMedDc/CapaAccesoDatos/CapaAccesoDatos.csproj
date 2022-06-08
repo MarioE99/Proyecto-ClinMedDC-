@@ -45,6 +45,8 @@
     <Compile Include="EmpleadoDAO.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="EspecialidadDAO.cs" />
+    <Compile Include="DetalleDAO.cs" />
+    <Compile Include="FacturaDAO.cs" />
     <Compile Include="MedicamentoDAO.cs" />
     <Compile Include="MedicoDAO.cs" />
     <Compile Include="MenuDAO.cs" />

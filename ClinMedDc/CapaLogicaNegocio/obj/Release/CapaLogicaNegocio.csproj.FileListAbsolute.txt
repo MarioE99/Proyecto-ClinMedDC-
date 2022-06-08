@@ -1,0 +1,11 @@
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaLogicaNegocio.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaLogicaNegocio.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaAccesoDatos.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaEntidades.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaAccesoDatos.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\bin\Release\CapaEntidades.pdb
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Release\CapaLogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Release\CapaLogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Release\CapaLogicaNegocio.csproj.CopyComplete
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Release\CapaLogicaNegocio.dll
+C:\Users\chele\OneDrive\Escritorio\ClinMedDc\Proyecto-ClinMedDC-\ClinMedDc\CapaLogicaNegocio\obj\Release\CapaLogicaNegocio.pdb

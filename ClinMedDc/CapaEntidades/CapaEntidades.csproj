@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Detalle.cs" />
     <Compile Include="Diagnostico.cs" />
     <Compile Include="Especialidad.cs" />
+    <Compile Include="Factura.cs" />
     <Compile Include="HistoriaClinica.cs" />
     <Compile Include="Medicamento.cs" />
     <Compile Include="Medico.cs" />

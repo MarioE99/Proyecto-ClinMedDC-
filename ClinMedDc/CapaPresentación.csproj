@@ -231,6 +231,8 @@
     <Content Include="ErrorPage.aspx" />
     <Content Include="fonts\fontawesome-webfonts.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GestionarDetalleFactura.aspx" />
+    <Content Include="GestionarFactura.aspx" />
     <Content Include="GestionarLaboratorio.aspx" />
     <Content Include="GestionarVencimiento.aspx" />
     <Content Include="GestionarStock.aspx" />
@@ -259,6 +261,7 @@
     <Content Include="img\credit\visa.png" />
     <Content Include="img\fechaicon.jpg" />
     <Content Include="img\fondologin.jpg" />
+    <Content Include="img\fondopanel.jpg" />
     <Content Include="img\icons.png" />
     <Content Include="img\laboratorio.png" />
     <Content Include="img\loginusuario.png" />
@@ -284,10 +287,10 @@
     <Content Include="js\AdminLTE\demo.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\enfermera.js" />
+    <Content Include="js\detalle.js" />
+    <Content Include="js\factura.js" />
     <Content Include="js\vencimiento.js" />
     <Content Include="js\stock.js" />
-    <Content Include="js\horariosenfermera.js" />
-    <Content Include="js\horariosmedico.js" />
     <Content Include="js\jquery-3.1.0.min.js" />
     <Content Include="js\jquery-ui.min.js" />
     <Content Include="js\jquery.min.js" />
@@ -446,6 +449,20 @@
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GestionarDetalleFactura.aspx.cs">
+      <DependentUpon>GestionarDetalleFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarDetalleFactura.aspx.designer.cs">
+      <DependentUpon>GestionarDetalleFactura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarFactura.aspx.cs">
+      <DependentUpon>GestionarFactura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionarFactura.aspx.designer.cs">
+      <DependentUpon>GestionarFactura.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GestionarLaboratorio.aspx.cs">
       <DependentUpon>GestionarLaboratorio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -559,6 +576,7 @@
     <Content Include="Home.Master" />
     <Content Include="MasterError.Master" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

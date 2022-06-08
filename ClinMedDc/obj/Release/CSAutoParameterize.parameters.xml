@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="connection-Web.config Connection String" description="connection Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source =DESKTOP-FK4VL1E;Initial Catalog=DBClinica;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\chele\\OneDrive\\Escritorio\\ClinMedDc\\Proyecto-ClinMedDC-\\ClinMedDc\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='connection']/@connectionString" />
+  </parameter>
+</parameters>
